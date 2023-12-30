@@ -10,6 +10,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "homepage": "https://github.com/zaviermiller/ts-char-to-byte",
   "license": "MIT",
   "files": [
     "index.ts",
