@@ -1,0 +1,32 @@
+{
+  "name": "ts-char-to-byte",
+  "version": "1.0.0",
+  "description": "Convert calls to a charToByte function to a number at compile time",
+  "main": "index.ts",
+  "scripts": {
+    "test": "tsc && jest"
+  },
+  "author": "Zavier Miller",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "transformer.ts"
+  ],
+  "keywords": [
+    "typescript",
+    "transformer",
+    "char",
+    "byte",
+    "macro",
+    "compile-time"
+  ],
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
